@@ -1,0 +1,2 @@
+# Qt_libraryManagement
+一个拥有基础功能的图书管理系统
