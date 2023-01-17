@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>updateCDs</class>
+ <widget class="QWidget" name="updateCDs">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>编辑物品</string>
+  </property>
+  <widget class="QLabel" name="item2">
+   <property name="geometry">
+    <rect>
+     <x>248</x>
+     <y>2</y>
+     <width>75</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>原物品编号</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="item">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>1</y>
+     <width>120</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请刷新该页面一次</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="IDShow">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>3</y>
+     <width>56</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="refreshButton">
+   <property name="geometry">
+    <rect>
+     <x>148</x>
+     <y>1</y>
+     <width>92</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刷新</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>270</y>
+     <width>92</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="confirmButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>270</y>
+     <width>92</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>50</y>
+     <width>211</width>
+     <height>219</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLineEdit" name="CDs_1"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="CDs_2"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="CDs_3"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="CDs_4"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="CDs_5"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="CDs_6"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>77</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="ID">
+      <property name="text">
+       <string>编号</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="headLine">
+      <property name="text">
+       <string>标题</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="authorName">
+      <property name="text">
+       <string>作者</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="Producer">
+      <property name="text">
+       <string>出品者姓名</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="productionTime">
+      <property name="text">
+       <string>出品时间</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="videoLength">
+      <property name="text">
+       <string>视频时长</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
